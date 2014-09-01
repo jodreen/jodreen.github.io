@@ -4,12 +4,14 @@ title: Interests
 permalink: /interests/
 ---
 
-Some information about you!
+#### Chinese Calligraphy
 
-### More Information
+<img src="http://chineseperformingarts.net/contents/competition/painting/2010/images/53.jpg" alt="Jordeen Chang - Xin Jing Chinese Calligraphy"/>
 
-A place to include any other types of information that you'd like to include about yourself. 
+<img src="{{ site.baseurl }}/images/8panel.jpg" alt="Jordeen Chang - 8 Panel Chinese Calligraphy"/>
 
-### Contact me
+#### Chinese Brush Painting
 
-[email@domain.com](mailto:email@domain.com)
+<img src="{{ site.baseurl }}/images/4seasons.jpg" alt="Jordeen Chang - 4 Panel Chinese Art"/>
+
+I also like to dabble in all types of arts and crafts. Among them include knitting, cross stitching, ceramics, needle felting, scrapbooking, and jewerly making. 
