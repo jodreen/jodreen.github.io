@@ -4,16 +4,23 @@ title: Projects
 permalink: /projects/
 ---
 
-Some information about you!
+#### <a href="http://jodreen.github.io">jodreen.github.io</a> - August 2014
 
-#### Celli@Berkeley Website
+A personal website built with Jekyll and Github Pages. Built from the base theme <a href="https://github.com/barryclark/jekyll-now" target="_blank">Jekyll Now</a>.
 
-As a member of <a href="http://innovativedesign.club/" target="_blank">Innovative Design</a>'s web tier, I created and designed the "About" page for Celli@Berkeley with a partner.
+#### <a href="http://whatsthehex.herokuapp.com" target="_blank">What's The Hex</a> - August 2014
+
+A Ruby on Rails application that can be used for saving colors you like or are currently using.
+
+<a href="http://whatsthehex.herokuapp.com/" target="_blank"><img src="{{ site.baseurl }}/images/WhatsTheHexScreenshot.png" alt="What's The Hex"></a>
+
+#### <a href="http://celli-berkeley.herokuapp.com/" target="_blank">Celli@Berkeley Website</a> - May 2014
+
+As a member of <a href="http://innovativedesign.club/" target="_blank">Innovative Design</a>'s web tier, I created and designed the "About" page for Celli@Berkeley with a partner. 
 
 <a href="http://celli-berkeley.herokuapp.com/" target="_blank"><img src="{{ site.baseurl }}/images/CelliScreenshot.png" alt="Celli@Berkeley Website"></a>
 
-#### What's The Hex
+#### <a href="http://jodreen.github.io/googletrends-stocks/" target="_blank">Google Trends and Stocks</a> - May 2014
 
-A Ruby on Rails application that can be used for saving colors you like or are currently using. 
+The final project for Concepts in Computing with Data (STAT133) in R and Python. Our team's objective was to see if there was a relationship between Google Trends data and stock prices.
 
-<a href="http://whatsthehex.herokuapp.com/" target="_blank"><img src="{{ site.baseurl }}/images/WhatsTheHexScreenshot.png" alt="What's The Hex"></a>
