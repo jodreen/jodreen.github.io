@@ -14,4 +14,4 @@ permalink: /interests/
 
 <img src="{{ site.baseurl }}/images/4seasons.jpg" alt="Jordeen Chang - 4 Panel Chinese Art"/>
 
-I also like to dabble in all types of arts and crafts. Among them include knitting, cross stitching, ceramics, needle felting, scrapbooking, and jewerly making. 
+I also like to dabble in all types of arts and crafts. Among them include knitting, cross stitching, and ceramics.

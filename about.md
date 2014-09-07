@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Sorry!
+title: Resume
 permalink: /about/
 ---
 
-Still working on it.
-
-<!-- ### More Information
+### More Information
 
 Education
 
@@ -22,4 +20,4 @@ Machine Learning in Education (INFO290)\*, Concepts of Statistics (STAT135)\*, C
 
 ### Contact me
 
-Email: jordeenchang@gmail(.)com -->
+Email: jordeenchang@gmail(.)com
