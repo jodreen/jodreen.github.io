@@ -3,6 +3,9 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
+#### <a href="http://github.com/calblueprint/watershed">The Watershed Project</a> - In Progress
+
+A task management mobile application for <a href="http://www.thewatershedproject.org/home.php" target="_blank">The Watershed Project</a>. Built for iOS and Android with a Rails backend. Working specifically on iOS as a developer for <a href="http://bptech.berkeley.edu/" target="_blank">Blueprint</a>.
 
 #### <a href="http://jodreen.github.io">jodreen.github.io</a> - August 2014
 
@@ -16,7 +19,7 @@ A Ruby on Rails application that can be used for saving colors you like or are c
 
 #### <a href="http://celli-berkeley.herokuapp.com/" target="_blank">Celli@Berkeley Website</a> - May 2014
 
-As a member of <a href="http://innovativedesign.club/" target="_blank">Innovative Design</a>'s web tier, I created and designed the "About" page for Celli@Berkeley with a partner. 
+As a member of <a href="http://innovativedesign.club/" target="_blank">Innovative Design</a>'s web tier, I created and designed the "About" page for Celli@Berkeley with a partner.
 
 <a href="http://celli-berkeley.herokuapp.com/" target="_blank"><img src="{{ site.baseurl }}/images/CelliScreenshot.png" alt="Celli@Berkeley Website"></a>
 
