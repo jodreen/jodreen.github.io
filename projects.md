@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: P R O J E C T S
 permalink: /projects/
 ---
 #### <a href="http://github.com/calblueprint/watershed">The Watershed Project</a> - In Progress
