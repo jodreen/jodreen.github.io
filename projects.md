@@ -89,4 +89,5 @@ permalink: /projects/
 
     <div class="col-md-9">
         The final project for Concepts in Computing with Data (STAT133) in R and Python. Our team's objective was to see if there was a relationship between Google Trends data and stock prices.
-    </d</div>
+    </div>
+</div>
