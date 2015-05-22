@@ -15,6 +15,12 @@
 
 html {
   font-size: 100%;
+  // background: url(images/SF.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%
 }
 
 body {
@@ -25,8 +31,9 @@ body {
 }
 
 .row {
-  margin-bottom:15px;
+  margin-top:15px;
 }
+
 .clear {
   clear:both
 }
@@ -35,7 +42,6 @@ body {
   min-width: 100px;
   max-width: 300px;
   width: 50%;
-  float: left;
 }
 
 .container {
@@ -178,19 +184,23 @@ img.desaturate:hover {
 //
 // .masthead
 //
+// ///////////////////NAV//////////////////////////////////////////////
+.nav {
+  padding: 15px;
+  border-bottom: solid 1px #DDD;
 
-.wrapper-masthead {
-  margin-bottom: 25px;
 }
 
-.masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
 
-  @include mobile {
-    text-align: center;
-  }
+.full-name{
+  width: 50%;
 }
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 .profile-pic {
   background-repeat: no-repeat;
@@ -200,6 +210,7 @@ img.desaturate:hover {
   height: 200px;
   background-size: cover;
   margin: 0 auto;
+  margin-top: 15px;
   background-image: url("/images/profile.jpg");
 
   @include mobile {

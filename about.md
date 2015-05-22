@@ -1,14 +1,19 @@
 ---
 layout: page
-title: Resume
-permalink: /about/
+permalink: /spiel/
 ---
 
-### More Information
+
+<div class="center">
+    <div class="profile-pic"></div>
+    Hi! My name is Jordeen, and I'm a third year studying computer science and statistics at UC Berkeley.
+</div>
+
+<!-- ### More Information
 
 Education
 
-University of California, Berkeley (GPA: 3.70) 
+University of California, Berkeley (GPA: 3.70)
 B.A. Computer Science | B.A. Statistics
 Expected Graduation Date: May 2016
 
@@ -20,4 +25,4 @@ Stochastic Processes (STAT15)\*, Concepts of Statistics (STAT135)\*, Concepts in
 
 ### Contact me
 
-Email: jordeenchang@gmail(.)com
+Email: jordeenchang@gmail(.)com -->
