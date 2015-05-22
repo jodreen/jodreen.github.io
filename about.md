@@ -2,12 +2,7 @@
 layout: page
 permalink: /spiel/
 ---
-
-
-<div class="center">
-    <div class="profile-pic"></div>
-    Hi! My name is Jordeen, and I'm a third year studying computer science and statistics at UC Berkeley.
-</div>
+Education
 
 <!-- ### More Information
 

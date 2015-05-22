@@ -34,16 +34,6 @@ body {
   margin-top:15px;
 }
 
-.clear {
-  clear:both
-}
-
-.written-name {
-  min-width: 100px;
-  max-width: 300px;
-  width: 50%;
-}
-
 .container {
   margin: 0 auto;
   max-width: 1000px;
@@ -188,11 +178,11 @@ img.desaturate:hover {
 .nav {
   padding: 15px;
   border-bottom: solid 1px #DDD;
-
 }
 
-
-.full-name{
+.written-name {
+  min-width: 150px;
+  max-width: 300px;
   width: 50%;
 }
 
@@ -212,6 +202,8 @@ img.desaturate:hover {
   margin: 0 auto;
   margin-top: 15px;
   background-image: url("/images/profile.jpg");
+  // -webkit-filter: grayscale(100%);
+
 
   @include mobile {
     float: none;
@@ -220,76 +212,6 @@ img.desaturate:hover {
   }
 }
 
-.site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-.site-name {
-  margin: 0;
-  color: $darkGray;
-  cursor: pointer;
-  font-family: $lato;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-}
-
-nav {
-  float: right;
-  // margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $roboto;
-  font-size: 18px;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
-  }
-}
-
-
-
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
-
-footer {
-  padding: 20px 0;
-  text-align: center;
-}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
