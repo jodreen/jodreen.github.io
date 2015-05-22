@@ -140,11 +140,6 @@ img.desaturate:hover {
   -ms-filter: grayscale(0);
 }
 
-.date {
-  font-style: italic;
-  color: $gray;
-}
-
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
@@ -187,10 +182,10 @@ img.desaturate:hover {
 }
 
 .center {
+  padding: 15px;
   margin: 0 auto;
   text-align: center;
 }
-
 
 .profile-pic {
   background-repeat: no-repeat;
@@ -203,7 +198,6 @@ img.desaturate:hover {
   margin-top: 15px;
   background-image: url("/images/profile.jpg");
   // -webkit-filter: grayscale(100%);
-
 
   @include mobile {
     float: none;
