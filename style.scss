@@ -86,6 +86,7 @@ a {
   cursor: pointer;
   &:hover, &:active {
     color: $blue;
+    text-decoration: none;
   }
 }
 
@@ -175,6 +176,7 @@ img.desaturate:hover {
   border-bottom: solid 1px #DDD;
   &:hover, &:active {
     border-bottom: solid 1px #000;
+    text-decoration: none !important;
   }
 }
 

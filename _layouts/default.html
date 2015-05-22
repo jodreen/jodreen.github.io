@@ -53,12 +53,8 @@
 <script type="text/javascript">
   $(document).ready(function () {
         var url = window.location;
-        console.log(url);
         $('.nav').find('.active').removeClass('active');
         $('.nav a').each(function () {
-            console.log("HI");
-            console.log(this.href)
-            console.log(this.href == url)
             if (this.href == url) {
                 $(this).parent().addClass('active');
             }
