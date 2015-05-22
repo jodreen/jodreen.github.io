@@ -24,22 +24,17 @@ body {
   color: $darkGray;
 }
 
-.project-title {
-  width: 20%;
-  float: left;
+.row {
+  margin-bottom:15px;
 }
-
-.project-description {
-  width: 75%;
-  float: right;
-}
-
 .clear {
   clear:both
 }
 
 .written-name {
-  width: 300px;
+  min-width: 100px;
+  max-width: 300px;
+  width: 50%;
   float: left;
 }
 
@@ -185,7 +180,7 @@ img.desaturate:hover {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .masthead {
@@ -201,19 +196,16 @@ img.desaturate:hover {
   background-repeat: no-repeat;
   background-position: 50%;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   background-size: cover;
+  margin: 0 auto;
   background-image: url("/images/profile.jpg");
 
   @include mobile {
     float: none;
     display: block;
     margin: 0 auto;
-  }
-
-  img {
-    border-radius: 35px;
   }
 }
 
@@ -274,39 +266,7 @@ nav {
   }
 }
 
-//
-// .main
-//
 
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-}
-
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
-
-.post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
-
-  .comments {
-    margin-top: 10px;
-  }
-
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
-  }
-}
 
 .wrapper-footer {
   margin-top: 50px;

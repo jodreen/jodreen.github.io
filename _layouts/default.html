@@ -9,54 +9,50 @@
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
   <script src="http://code.jquery.com/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <title>{{ site.name }}{% if page.title %} - {{ page.title }} {% endif %}</title>
 
   <meta name="author" content="{{ site.name }}" />
   <meta name="description" content="{{ site.description }}">
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
-      <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-      <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-      <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    </head>
+</head>
 
-    <body>
-      <div class="wrapper-masthead">
-        <div class="container">
-          <header class="masthead clearfix">
+<body>
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead clearfix">
 
-            <!-- <div class="site-info"> -->
-            <!-- <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1> -->
-            <!-- <p class="site-description">{{ site.description }}</p> -->
-            <!-- </div> -->
-            <a style="margin-left: auto; margin-right: auto"href="{{ site.baseurl }}/"><img class="written-name" src="/images/name.png"></a>
-            <nav>
-              <!-- <a href="{{ site.baseurl }}/blog">Blog</a> -->
-              <!-- <a href="{{ site.baseurl }}/about">Spiel</a> -->
-              <a href="{{ site.baseurl }}/projects">Projects</a>
-              <!-- <a href="{{ site.baseurl }}/interests">Interests</a> -->
-            </nav>
-          </header>
-        </div>
-      </div>
+        <!-- <div class="site-info"> -->
+        <!-- <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1> -->
+        <!-- <p class="site-description">{{ site.description }}</p> -->
+        <!-- </div> -->
+        <a style="margin-left: auto; margin-right: auto"href="{{ site.baseurl }}/"><img class="written-name" src="/images/name.png"></a>
+        <nav>
+          <!-- <a href="{{ site.baseurl }}/blog">Blog</a> -->
+          <!-- <a href="{{ site.baseurl }}/about">Spiel</a> -->
+          <a href="{{ site.baseurl }}/projects">Projects</a>
+          <!-- <a href="{{ site.baseurl }}/interests">Interests</a> -->
+        </nav>
+      </header>
+    </div>
+  </div>
 
-      <div id="main" role="main" class="container">
-        {{ content }}
-      </div>
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
 
-      <div class="wrapper-footer">
-        <div class="container">
-          <footer class="footer">
-            {% include svg-icons.html %}
-          </footer>
-        </div>
-      </div>
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        {% include svg-icons.html %}
+      </footer>
+    </div>
+  </div>
 
-      {% include analytics.html %}
-    </body>
-    </html>
+  {% include analytics.html %}
+</body>
+</html>
