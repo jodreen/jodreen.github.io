@@ -173,6 +173,13 @@ img.desaturate:hover {
 .nav {
   padding: 15px;
   border-bottom: solid 1px #DDD;
+  &:hover, &:active {
+    border-bottom: solid 1px #000;
+  }
+}
+
+.active {
+  border-bottom: solid 1px #000;
 }
 
 .written-name {

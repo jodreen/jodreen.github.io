@@ -33,10 +33,10 @@
       <a href="{{ site.baseurl }}/spiel">Spiel</a>
     </div> -->
     <div class="col-md-2 nav center">
-      <a href="{{ site.baseurl }}/projects">Projects</a>
+      <a href="{{ site.baseurl }}/projects/">Projects</a>
     </div>
     <div class="col-md-2 nav center">
-      <a href="{{ site.baseurl }}/contact">Contact</a>
+      <a href="{{ site.baseurl }}/contact/">Contact</a>
     </div>
     <div class="col-md-4"></div>
   </div>
@@ -49,3 +49,19 @@
   {% include analytics.html %}
 </body>
 </html>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+        var url = window.location;
+        console.log(url);
+        $('.nav').find('.active').removeClass('active');
+        $('.nav a').each(function () {
+            console.log("HI");
+            console.log(this.href)
+            console.log(this.href == url)
+            if (this.href == url) {
+                $(this).parent().addClass('active');
+            }
+        });
+    });
+</script>
