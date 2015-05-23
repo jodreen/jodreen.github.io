@@ -12,8 +12,12 @@ permalink: /projects/
         </div>
     </div>
     <div class="fourteen nov"></div>
-    <div data-sr="reset" class="month-page">
-        <div class="row project-card">
+    <div data-sr class="project-card only-project-card">
+        HELLO
+    </div>
+    <!-- <div data-sr="reset" class="month-page"> -->
+    <!-- <div data-sr="reset" class="month-page"> -->
+        <div class="row project-card only-project-card">
             <div class="project-title">
                 <h4><a href="http://github.com/calblueprint/watershed">THE WATERSHED PROJECT</a></h4>
                 <div class="project-date">
