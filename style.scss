@@ -35,7 +35,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1000px;
+  // max-width: 1000px;
   padding: 0 10px;
   width: 100%;
 }
@@ -223,10 +223,6 @@ img.desaturate:hover {
   height: 500px;
 }
 
-.all-months {
-
-}
-
 .month-page {
   position: relative;
   width: 100%;
@@ -234,10 +230,25 @@ img.desaturate:hover {
   overflow: hidden;
 }
 
+.test {
+
+}
+
+.all-months {
+  background-image: url("/images/SFedited.jpg");
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  // background-position: fixed;
+}
+
 .month {
   height: 50%;
-  background-color: black;
-  border: 1px solid black;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.7);
+  // border: 1px solid black;
   width: 50%;
   overflow: auto;
   margin: auto;
@@ -251,16 +262,24 @@ img.desaturate:hover {
   padding-top: 10%;
   text-align: center;
   a {
-    color: #aaa;
+    color: #111;
     font-size: large;
+    font-weight: 300;
   }
   padding-bottom: 5%;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #555;
+  // border-width: 50%;
 }
 
 .project-desc {
-  padding: 30px;
+  a {
+    color: #333;
+    text-decoration: underline;
+  }
+  color: #555;
+  padding: 10%;
   text-align: center;
+  font-weight: 300;
 }
 
 .row {

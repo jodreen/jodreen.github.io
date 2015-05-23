@@ -60,11 +60,16 @@
 $(document).ready(function () {
   var url = window.location;
   $('.nav').find('.active').removeClass('active');
+    console.log(url);
+  if(url.href.indexOf("spiel") > -1) {
+    $('body').addClass('all-months');
+  }
   $('.nav a').each(function () {
     if (this.href == url) {
       $(this).parent().addClass('active');
     }
   });
 });
+
 </script>
 

@@ -75,7 +75,7 @@ permalink: /projects/
 
     <div class="col-md-9">
         As a member of <a href="http://innovativedesign.club/" target="_blank">Innovative Design</a>'s web tier, I created and designed the "About" page for Celli@Berkeley with a partner.
-        <a href="http://celli-berkeley.herokuapp.com/" target="_blank"><img class="desaturate" src="{{ site.baseurl }}/images/CelliScreenshot.png" alt="Celli@Berkeley Website"></a>
+        <!-- <a href="http://celli-berkeley.herokuapp.com/" target="_blank"><img class="desaturate" src="{{ site.baseurl }}/images/CelliScreenshot.png" alt="Celli@Berkeley Website"></a> -->
 
     </div>
 </div>
