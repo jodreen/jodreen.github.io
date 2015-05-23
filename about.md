@@ -22,7 +22,7 @@ permalink: /spiel/
             </div>
 
             <div class="project-desc">
-                A task management mobile application for <a href="http://www.thewatershedproject.org/home.php" target="_blank">The Watershed Project</a>. Built for iOS and Android with a Rails backend. Working specifically on iOS as a developer for <a href="http://bptech.berkeley.edu/" target="_blank">Blueprint</a>.
+                A task management mobile application for <a href="http://www.thewatershedproject.org/home.php" target="_blank">The Watershed Project</a>. Built natively for both iOS and Android with a Rails backend. Working specifically on iOS as a developer for <a href="http://bptech.berkeley.edu/" target="_blank">Blueprint</a>.
             </div>
         </div>
     </div>
@@ -55,7 +55,7 @@ permalink: /spiel/
             </div>
 
             <div class="project-desc">
-                First place for <a href="http://cmyk.innovativedesign.club/" target="_blank">CMYK Designathon</a>. The prompt was to design a campaign that increases public awareness for California water conservation.
+                First place for <a href="http://cmyk.innovativedesign.club/" target="_blank">CMYK Designathon</a>. The prompt was to design a campaign that increases public awareness for California water conservation. We decided to build a website. Worked on assets.
                 <!-- <a href="http://savethebae.herokuapp.com/" target="_blank"><img class="desaturate" src="{{ site.baseurl }}/images/SaveTheBae.png" alt="Save The Bae"></a> -->
 
             </div>
@@ -71,7 +71,7 @@ permalink: /spiel/
             </div>
 
             <div class="project-desc">
-                A personal website built with Jekyll and Github Pages. Built from the base theme <a href="https://github.com/barryclark/jekyll-now" target="_blank">Jekyll Now</a>.
+                A personal website built with Jekyll and hosted on Github Pages. Built from the base theme <a href="https://github.com/barryclark/jekyll-now" target="_blank">Jekyll Now</a>.
             </div>
         </div>
     </div>

@@ -22,6 +22,7 @@ html {
   background-size: cover;
   height: 100%;
   width: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -31,11 +32,11 @@ body {
   font: 18px/1.4 $roboto;
   font-weight: 300;
   color: $darkGray;
+  min-height: 100%;
 }
 
 .container {
   margin: 0 auto;
-  // max-width: 1000px;
   padding: 0 10px;
   width: 100%;
 }
@@ -268,6 +269,10 @@ img.desaturate:hover {
   .project-date {
     visibility: visible !important;
   }
+  #bg {
+    visibility: visible !important;
+  }
+
 }
 
 .all-months {
@@ -277,7 +282,22 @@ img.desaturate:hover {
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
   filter: gray;
-  // background-position: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#bg {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .project-card {
