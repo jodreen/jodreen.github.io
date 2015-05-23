@@ -273,6 +273,10 @@ img.desaturate:hover {
     visibility: visible !important;
   }
 
+  .all-months {
+    background-image: none !important;
+  }
+
 }
 
 .all-months {
@@ -297,6 +301,8 @@ img.desaturate:hover {
 
   /* Preserve aspet ratio */
   min-width: 100%;
+  // height: 100%;
+  // width: 100%;
   min-height: 100%;
 }
 
