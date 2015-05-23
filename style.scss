@@ -289,7 +289,7 @@ img.desaturate:hover {
   background-repeat: no-repeat;
 }
 
-#bg {
+.projects-bg {
   visibility: hidden;
   position: fixed;
   top: 0;
@@ -298,6 +298,12 @@ img.desaturate:hover {
   /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;
+}
+
+#bg {
+  visibility: hidden;
+  height: 0px;
+  // display:none;
 }
 
 .project-card {
