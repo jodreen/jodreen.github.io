@@ -235,9 +235,8 @@ img.desaturate:hover {
 }
 
 .month {
-  text: blue;
-  position: absolute;
   height: 50%;
+  background-color: black;
   border: 1px solid black;
   width: 50%;
   overflow: auto;
@@ -246,6 +245,23 @@ img.desaturate:hover {
   top: 0; left: 0; bottom: 0; right: 0;  // padding-bottom: 25%;
 }
 
+.project-title {
+  margin: 0 auto;
+  width: 75%;
+  padding-top: 10%;
+  text-align: center;
+  a {
+    color: #aaa;
+    font-size: large;
+  }
+  padding-bottom: 5%;
+  border-bottom: 1px solid #333;
+}
+
+.project-desc {
+  padding: 30px;
+  text-align: center;
+}
 
 .row {
   margin-top:15px;
