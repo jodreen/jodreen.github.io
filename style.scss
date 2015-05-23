@@ -20,18 +20,17 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%
+  height: 100%;
+  width: 100%;
 }
 
 body {
-	background: $white;
+  height: 100%;
+  width: 100%;
+  background: $white;
   font: 18px/1.4 $roboto;
   font-weight: 300;
   color: $darkGray;
-}
-
-.row {
-  margin-top:15px;
 }
 
 .container {
@@ -215,6 +214,43 @@ img.desaturate:hover {
   }
 }
 
+
+
+
+////////////////////////////PROJECTS //////////////////////////////////
+.timeline {
+  border-right: 1px solid black;
+  height: 500px;
+}
+
+.all-months {
+
+}
+
+.month-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.month {
+  text: blue;
+  position: absolute;
+  height: 50%;
+  border: 1px solid black;
+  width: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;  // padding-bottom: 25%;
+}
+
+
+.row {
+  margin-top:15px;
+  // width: 50%;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
