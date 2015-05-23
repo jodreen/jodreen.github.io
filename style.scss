@@ -235,9 +235,43 @@ img.desaturate:hover {
 }
 
 .year-num {
-    font-size: x-large;
+  font-size: 600%;
+  font-weight: 400;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.month-name {
+  font-size: 300%;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  margin-right: 15px;
+  height: 25px;
+}
+
+.date {
+  width: 25%;
   color: white;
   position:fixed;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .year-num {
+    display: none !important;
+  }
+  .month-name {
+    display: none !important;
+  }
+  .project-title {
+    padding-bottom: 5% !important;
+  }
+  .project-date {
+    visibility: visible !important;
+  }
 }
 
 .all-months {
@@ -273,9 +307,14 @@ img.desaturate:hover {
     font-size: x-large;
     font-weight: 300;
   }
-  padding-bottom: 5%;
+  // padding-bottom: 5%;
   border-bottom: 1px solid #555;
   // border-width: 50%;
+}
+
+.project-date {
+  visibility: hidden;
+  color: #555;
 }
 
 .project-desc {

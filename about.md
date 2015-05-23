@@ -3,14 +3,22 @@ layout: page
 permalink: /spiel/
 ---
 <div class="test">
-    <div class="year-num">
-        2015
+    <div class="date">
+        <div class="month-name">
+            MAY
+        </div>
+        <div class="year-num">
+            &nbsp;15
+        </div>
     </div>
+    <div class="fourteen nov"></div>
     <div data-sr="reset" class="month-page">
         <div class="row month">
             <div class="project-title">
                 <h4><a href="http://github.com/calblueprint/watershed">THE WATERSHED PROJECT</a></h4>
-                In Progress
+                <div class="project-date">
+                    In Progress
+                </div>
             </div>
 
             <div class="project-desc">
@@ -18,11 +26,14 @@ permalink: /spiel/
             </div>
         </div>
     </div>
-    <div data-sr="reset" class="month-page fourteen">
+    <div class="oct"></div>
+    <div data-sr="reset" class="month-page">
         <div data-sr="reset" class="row month">
             <div class="project-title">
                 <h4><a href="https://calciumulator.herokuapp.com/">CALCIUMULATOR</a></h4>
-                November 2014
+                <div class="project-date">
+                    November 2014
+                </div>
             </div>
 
             <div class="project-desc">
@@ -33,11 +44,14 @@ permalink: /spiel/
             </div>
         </div>
     </div>
+    <div class="aug"></div>
     <div data-sr="reset" class="month-page">
         <div data-sr="reset" class="row month">
             <div class="project-title">
                 <h4><a href="http://savethebae.herokuapp.com/">SAVE THE BAE</a></h4>
-                October 2014
+                <div class="project-date">
+                    October 2014
+                </div>
             </div>
 
             <div class="project-desc">
@@ -51,7 +65,9 @@ permalink: /spiel/
         <div data-sr="reset" class="row month">
             <div class="project-title">
                 <h4><a href="http://jodreen.github.io">JODREEN.GITHUB.IO</a></h4>
-                August 2014
+                <div class="project-date">
+                    August 2014
+                </div>
             </div>
 
             <div class="project-desc">
@@ -59,11 +75,14 @@ permalink: /spiel/
             </div>
         </div>
     </div>
+    <div class="may"></div>
     <div data-sr="reset" class="month-page">
         <div data-sr="reset" class="row month">
             <div class="project-title">
                 <h4><a href="http://whatsthehex.herokuapp.com" target="_blank">WHAT'S THE HEX</a></h4>
-                August 2014
+                <div class="project-date">
+                    August 2014
+                </div>
             </div>
 
             <div class="project-desc">
@@ -77,23 +96,25 @@ permalink: /spiel/
             <div class="project-title">
                 <h4><a href="http://celli-berkeley.herokuapp.com/" target="_blank">CELLI@BERKELEY WEBSITE</a>
                 </h4>
-                May 2014
+                <div class="project-date">
+                    May 2014
+                </div>
             </div>
 
             <div class="project-desc">
                 As a member of <a href="http://innovativedesign.club/" target="_blank">Innovative Design</a>'s web tier, I created and designed the "About" page for Celli@Berkeley with a partner.
         <!--             <a href="http://celli-berkeley.herokuapp.com/" target="_blank"><img class="desaturate" src="{{ site.baseurl }}/images/CelliScreenshot.png" alt="Celli@Berkeley Website"></a>
-         -->
-            </div>
-        </div>
-    </div>
-    <div data-sr="reset" class="month-page">
-        <div data-sr="reset" class="row month">
-            <div class="project-title">
-                <h4><a href="http://jodreen.github.io/googletrends-stocks/" target="_blank">GOOGLE TRENDS AND STOCKS</a></h4>
+    -->
+</div>
+</div>
+</div>
+<div data-sr="reset" class="month-page">
+    <div data-sr="reset" class="row month">
+        <div class="project-title">
+            <h4><a href="http://jodreen.github.io/googletrends-stocks/" target="_blank">GOOGLE TRENDS AND STOCKS</a></h4>
+            <div class="project-date">
                 May 2014
             </div>
-
             <div class="project-desc">
                 The final project for Concepts in Computing with Data (STAT133) in R and Python. Our team's objective was to see if there was a relationship between Google Trends data and stock prices.
             </div>
@@ -115,7 +136,7 @@ B.A. Computer Science | B.A. Statistics
 Expected Graduation Date: May 2016
 
 Relevant Coursework: Machine Learning (CS189), Combinatorics and Discrete Probability (CS174), Intro to Database Systems (CS186), Stochastic Processes (STAT150), Concepts of Statistics (STAT135), Concepts in Computing with Data (STAT133), Concepts of Probability (STAT134), Machine Learning in Education (INFO290), Efficient Algorithms and Intractable Problems (CS170), Aritificial Intelligence (CS188), Machine Structures (CS61C), Data Structures and Advanced Programming (CS61B), Structure and Interpretation of Computer Programs (CS61A), Discrete Mathematics and Probability Theory (CS70)
- -->
+-->
 
 
 <!-- \* Currently taking -->

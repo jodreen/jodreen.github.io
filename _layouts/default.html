@@ -72,17 +72,30 @@ $(document).ready(function () {
 });
 
 var fourteen_mark = $('.fourteen').offset().top;
+var nov_mark = $('.nov').offset().top;
+var oct_mark = $('.oct').offset().top;
+var aug_mark = $('.aug').offset().top;
+var may_mark = $('.may').offset().top;
 
 $(document).scroll(function(){
-    if($(this).scrollTop() > fourteen_mark) {
-        console.log($('.year-num').text());
-        $('.year-num').text('2014');
+    if($(this).scrollTop() >= fourteen_mark) {
+        $('.year-num').html('&nbsp;14');
+    } else {
+        $('.year-num').html('&nbsp;15');
     }
-    if($(this).scrollTop() < fourteen_mark) {
-        console.log($('.year-num').text());
-        $('.year-num').text('2015');
+    var s = $(this).scrollTop();
+    if(s >= may_mark) {
+        $('.month-name').text('MAY');
+    } else if (s >= aug_mark){
+        $('.month-name').text('AUG');
+    } else if (s >= oct_mark){
+        $('.month-name').text('OCT');
+    } else if (s >= nov_mark){
+        $('.month-name').text('NOV');
+    } else {
+        $('.month-name').text('MAY');
     }
-});
+  });
 
 </script>
 
