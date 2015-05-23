@@ -22,6 +22,7 @@
 </head>
 
 <body>
+
   <div class="row">
     <div class="col-md-12 center">
       <a class="center" href="{{ site.baseurl }}/"><img class="written-name" src="/images/name.png"></a>
@@ -47,17 +48,23 @@
 
 
   {% include analytics.html %}
+  <script src='/js/scrollReveal.js'></script>
+  <script>
+  window.sr = new scrollReveal();
+
+  </script>
 </body>
 </html>
 
 <script type="text/javascript">
-  $(document).ready(function () {
-        var url = window.location;
-        $('.nav').find('.active').removeClass('active');
-        $('.nav a').each(function () {
-            if (this.href == url) {
-                $(this).parent().addClass('active');
-            }
-        });
-    });
+$(document).ready(function () {
+  var url = window.location;
+  $('.nav').find('.active').removeClass('active');
+  $('.nav a').each(function () {
+    if (this.href == url) {
+      $(this).parent().addClass('active');
+    }
+  });
+});
 </script>
+

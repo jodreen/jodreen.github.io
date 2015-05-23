@@ -75,14 +75,14 @@ permalink: /projects/
 
     <div class="col-md-9">
         As a member of <a href="http://innovativedesign.club/" target="_blank">Innovative Design</a>'s web tier, I created and designed the "About" page for Celli@Berkeley with a partner.
-        <!-- <a href="http://celli-berkeley.herokuapp.com/" target="_blank"><img class="desaturate" src="{{ site.baseurl }}/images/CelliScreenshot.png" alt="Celli@Berkeley Website"></a> -->
+        <a href="http://celli-berkeley.herokuapp.com/" target="_blank"><img class="desaturate" src="{{ site.baseurl }}/images/CelliScreenshot.png" alt="Celli@Berkeley Website"></a>
 
     </div>
 </div>
 
-<div class="row">
+<div data-sr class="row">
     <div class="col-md-3">
-        <h4><a href="http://jodreen.github.io/googletrends-stocks/" target="_blank">Google Trends and Stocks</a></h4>
+        <h4><a data-sr="wait 2.5s, ease-in-out 100px" href="http://jodreen.github.io/googletrends-stocks/" target="_blank">Google Trends and Stocks</a></h4>
         May 2014
     </div>
 
