@@ -13,7 +13,7 @@ permalink: /spiel/
     </div>
     <div class="fourteen nov"></div>
     <div data-sr="reset" class="month-page">
-        <div class="row month">
+        <div class="row project-card">
             <div class="project-title">
                 <h4><a href="http://github.com/calblueprint/watershed">THE WATERSHED PROJECT</a></h4>
                 <div class="project-date">
@@ -28,7 +28,7 @@ permalink: /spiel/
     </div>
     <div class="oct"></div>
     <div data-sr="reset" class="month-page">
-        <div data-sr="reset" class="row month">
+        <div data-sr="reset" class="row project-card">
             <div class="project-title">
                 <h4><a href="https://calciumulator.herokuapp.com/">CALCIUMULATOR</a></h4>
                 <div class="project-date">
@@ -46,7 +46,7 @@ permalink: /spiel/
     </div>
     <div class="aug"></div>
     <div data-sr="reset" class="month-page">
-        <div data-sr="reset" class="row month">
+        <div data-sr="reset" class="row project-card">
             <div class="project-title">
                 <h4><a href="http://savethebae.herokuapp.com/">SAVE THE BAE</a></h4>
                 <div class="project-date">
@@ -62,7 +62,7 @@ permalink: /spiel/
         </div>
     </div>
     <div data-sr="reset" class="month-page">
-        <div data-sr="reset" class="row month">
+        <div data-sr="reset" class="row project-card">
             <div class="project-title">
                 <h4><a href="http://jodreen.github.io">JODREEN.GITHUB.IO</a></h4>
                 <div class="project-date">
@@ -77,7 +77,7 @@ permalink: /spiel/
     </div>
     <div class="may"></div>
     <div data-sr="reset" class="month-page">
-        <div data-sr="reset" class="row month">
+        <div data-sr="reset" class="row project-card">
             <div class="project-title">
                 <h4><a href="http://whatsthehex.herokuapp.com" target="_blank">WHAT'S THE HEX</a></h4>
                 <div class="project-date">
@@ -92,7 +92,7 @@ permalink: /spiel/
         </div>
     </div>
     <div data-sr="reset" class="month-page">
-        <div data-sr="reset" class="row month">
+        <div data-sr="reset" class="row project-card">
             <div class="project-title">
                 <h4><a href="http://celli-berkeley.herokuapp.com/" target="_blank">CELLI@BERKELEY WEBSITE</a>
                 </h4>
@@ -109,12 +109,13 @@ permalink: /spiel/
 </div>
 </div>
 <div data-sr="reset" class="month-page">
-    <div data-sr="reset" class="row month">
+    <div data-sr="reset" class="row project-card">
         <div class="project-title">
             <h4><a href="http://jodreen.github.io/googletrends-stocks/" target="_blank">GOOGLE TRENDS AND STOCKS</a></h4>
             <div class="project-date">
                 May 2014
             </div>
+        </div>
             <div class="project-desc">
                 The final project for Concepts in Computing with Data (STAT133) in R and Python. Our team's objective was to see if there was a relationship between Google Trends data and stock prices.
             </div>
