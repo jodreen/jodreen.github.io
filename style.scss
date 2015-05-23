@@ -230,12 +230,18 @@ img.desaturate:hover {
   overflow: hidden;
 }
 
-.test {
+.year {
 
 }
 
+.year-num {
+    font-size: x-large;
+  color: white;
+  position:fixed;
+}
+
 .all-months {
-  background-image: url("/images/SFedited.jpg");
+  background-image: url("/images/SFbw.jpg");
   background-size: cover;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -247,6 +253,7 @@ img.desaturate:hover {
 .month {
   height: 50%;
   max-width: 500px;
+  min-width: 400px;
   background-color: rgba(255, 255, 255, 0.7);
   // border: 1px solid black;
   width: 50%;
@@ -263,7 +270,7 @@ img.desaturate:hover {
   text-align: center;
   a {
     color: #111;
-    font-size: large;
+    font-size: x-large;
     font-weight: 300;
   }
   padding-bottom: 5%;

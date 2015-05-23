@@ -17,7 +17,7 @@ permalink: /projects/
 
 
 <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-3 yearfour">
         <h4><a href="https://calciumulator.herokuapp.com/">Calciumulator</a></h4>
         November 2014
     </div>
@@ -82,7 +82,7 @@ permalink: /projects/
 
 <div data-sr class="row">
     <div class="col-md-3">
-        <h4><a data-sr="wait 2.5s, ease-in-out 100px" href="http://jodreen.github.io/googletrends-stocks/" target="_blank">Google Trends and Stocks</a></h4>
+        <h4><a href="http://jodreen.github.io/googletrends-stocks/" target="_blank">Google Trends and Stocks</a></h4>
         May 2014
     </div>
 

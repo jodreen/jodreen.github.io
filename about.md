@@ -3,6 +3,9 @@ layout: page
 permalink: /spiel/
 ---
 <div class="test">
+    <div class="year-num">
+        2015
+    </div>
     <div data-sr="reset" class="month-page">
         <div class="row month">
             <div class="project-title">
@@ -15,8 +18,7 @@ permalink: /spiel/
             </div>
         </div>
     </div>
-
-    <div data-sr="reset" class="month-page">
+    <div data-sr="reset" class="month-page fourteen">
         <div data-sr="reset" class="row month">
             <div class="project-title">
                 <h4><a href="https://calciumulator.herokuapp.com/">CALCIUMULATOR</a></h4>
@@ -80,8 +82,8 @@ permalink: /spiel/
 
             <div class="project-desc">
                 As a member of <a href="http://innovativedesign.club/" target="_blank">Innovative Design</a>'s web tier, I created and designed the "About" page for Celli@Berkeley with a partner.
-    <!--             <a href="http://celli-berkeley.herokuapp.com/" target="_blank"><img class="desaturate" src="{{ site.baseurl }}/images/CelliScreenshot.png" alt="Celli@Berkeley Website"></a>
-     -->
+        <!--             <a href="http://celli-berkeley.herokuapp.com/" target="_blank"><img class="desaturate" src="{{ site.baseurl }}/images/CelliScreenshot.png" alt="Celli@Berkeley Website"></a>
+         -->
             </div>
         </div>
     </div>

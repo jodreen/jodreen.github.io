@@ -71,5 +71,18 @@ $(document).ready(function () {
   });
 });
 
+var fourteen_mark = $('.fourteen').offset().top;
+
+$(document).scroll(function(){
+    if($(this).scrollTop() > fourteen_mark) {
+        console.log($('.year-num').text());
+        $('.year-num').text('2014');
+    }
+    if($(this).scrollTop() < fourteen_mark) {
+        console.log($('.year-num').text());
+        $('.year-num').text('2015');
+    }
+});
+
 </script>
 
