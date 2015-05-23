@@ -22,7 +22,6 @@
 </head>
 
 <body>
-  <img src="../images/SF.jpg" id="bg" alt="">
 
   <div class="row">
     <div class="col-md-12 center">
@@ -61,9 +60,9 @@
 $(document).ready(function () {
   var url = window.location;
   $('.nav').find('.active').removeClass('active');
-  if(url.href.indexOf("projects") > -1) {
+    console.log(url);
+  if(url.href.indexOf("spiel") > -1) {
     $('body').addClass('all-months');
-    $('#bg').addClass('projects-bg');
   }
   $('.nav a').each(function () {
     if (this.href == url) {

@@ -22,7 +22,6 @@ html {
   background-size: cover;
   height: 100%;
   width: 100%;
-  min-height: 100%;
 }
 
 body {
@@ -32,11 +31,11 @@ body {
   font: 18px/1.4 $roboto;
   font-weight: 300;
   color: $darkGray;
-  min-height: 100%;
 }
 
 .container {
   margin: 0 auto;
+  // max-width: 1000px;
   padding: 0 10px;
   width: 100%;
 }
@@ -197,12 +196,12 @@ img.desaturate:hover {
 }
 
 .profile-pic {
-  // background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: 50%;
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  background-size: auto 100%;
+  background-size: cover;
   margin: 0 auto;
   margin-top: 15px;
   background-image: url("/images/profile.jpg");
@@ -229,6 +228,10 @@ img.desaturate:hover {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+}
+
+.year {
+
 }
 
 .year-num {
@@ -269,10 +272,6 @@ img.desaturate:hover {
   .project-date {
     visibility: visible !important;
   }
-  .projects-bg {
-    visibility: visible !important;
-  }
-
 }
 
 .all-months {
@@ -282,35 +281,16 @@ img.desaturate:hover {
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
   filter: gray;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  // background-repeat: no-repeat;
+  // background-position: fixed;
 }
 
-.projects-bg {
-  visibility: hidden;
-  position: fixed;
-  top: 0;
-  left: 0;
-
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
-}
-
-#bg {
-  visibility: hidden;
-  height: 0px;
-}
-
-.project-card {
+.month {
   height: 50%;
   max-width: 500px;
   min-width: 400px;
   background-color: rgba(255, 255, 255, 0.7);
-  width: 40%;
+  // border: 1px solid black;
+  width: 50%;
   overflow: auto;
   margin: auto;
   position: absolute;
@@ -339,9 +319,10 @@ img.desaturate:hover {
 
 .project-desc {
   a {
+    color: #333;
     text-decoration: underline;
   }
-  color: #333;
+  color: #555;
   padding: 10%;
   text-align: center;
   font-weight: 300;
