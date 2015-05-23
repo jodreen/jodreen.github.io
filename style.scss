@@ -197,12 +197,12 @@ img.desaturate:hover {
 }
 
 .profile-pic {
-  background-repeat: no-repeat;
+  // background-repeat: no-repeat;
   background-position: 50%;
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  background-size: cover;
+  background-size: auto 100%;
   margin: 0 auto;
   margin-top: 15px;
   background-image: url("/images/profile.jpg");
@@ -269,7 +269,7 @@ img.desaturate:hover {
   .project-date {
     visibility: visible !important;
   }
-  #bg {
+  .projects-bg {
     visibility: visible !important;
   }
 
@@ -286,7 +286,7 @@ img.desaturate:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
+  // background-repeat: no-repeat;
 }
 
 .projects-bg {
@@ -303,7 +303,6 @@ img.desaturate:hover {
 #bg {
   visibility: hidden;
   height: 0px;
-  // display:none;
 }
 
 .project-card {
