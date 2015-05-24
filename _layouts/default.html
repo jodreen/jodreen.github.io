@@ -51,7 +51,12 @@
   {% include analytics.html %}
   <script src='/js/scrollReveal.js'></script>
   <script>
-  window.sr = new scrollReveal();
+
+  var config = {
+    reset:  true,
+    vFactor: 0.95
+  }
+  window.sr = new scrollReveal(config);
 
   </script>
 </body>
@@ -77,26 +82,30 @@ var nov_mark = $('.nov').offset().top;
 var oct_mark = $('.oct').offset().top;
 var aug_mark = $('.aug').offset().top;
 var may_mark = $('.may').offset().top;
+var fixed_card = $('.only-project-card').offset().top;
+
 
 $(document).scroll(function(){
-    if($(this).scrollTop() >= fourteen_mark) {
-        $('.year-num').html('&nbsp;14');
-    } else {
-        $('.year-num').html('&nbsp;15');
-    }
-    var s = $(this).scrollTop();
-    if(s >= may_mark) {
-        $('.month-name').text('MAY');
-    } else if (s >= aug_mark){
-        $('.month-name').text('AUG');
-    } else if (s >= oct_mark){
-        $('.month-name').text('OCT');
-    } else if (s >= nov_mark){
-        $('.month-name').text('NOV');
-    } else {
-        $('.month-name').text('MAY');
-    }
-  });
+  // Changing year
+  var s = $(this).scrollTop();
+  if(s >= fourteen_mark) {
+    $('.year-num').html('&nbsp;14');
+  } else {
+    $('.year-num').html('&nbsp;15');
+  }
+  // changing month
+  if(s >= may_mark) {
+    $('.month-name').text('MAY');
+  } else if (s >= aug_mark){
+    $('.month-name').text('AUG');
+  } else if (s >= oct_mark){
+    $('.month-name').text('OCT');
+  } else if (s >= nov_mark){
+    $('.month-name').text('NOV');
+  } else {
+    $('.month-name').text('MAY');
+  }
+});
 
 </script>
 

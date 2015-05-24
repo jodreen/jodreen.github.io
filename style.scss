@@ -224,13 +224,6 @@ img.desaturate:hover {
   height: 500px;
 }
 
-.month-page {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
 .year-num {
   font-size: 600%;
   font-weight: 400;
@@ -318,25 +311,46 @@ img.desaturate:hover {
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
+  height: 50%;
+  max-width: 500px;
+  min-width: 400px;
+  width: 40%;
+}
+
+.month-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  // margin-top: 15px;
+  // display: table-cell;
+  // vertical-align: middle;
+  // text-align: center;
 }
 
 .project-card {
+  margin: auto;
+  // margin-top:px;
+  position: absolute;
+  top: 25vh; left: 0; bottom: 0; right: 0;
+  // display: inline-block;
   height: 50%;
   max-width: 500px;
   min-width: 400px;
   // background-color: rgba(255, 255, 255, 0.7);
   width: 40%;
+  // visibility: hidden;
   // overflow: auto;
-  margin-left: auto;
-  margin-right: auto;
+  // margin-left: auto;
+  // margin-right: auto;
   // position: absolute;
-  // top: 0; left: 0; bottom: 0; right: 0;  // padding-bottom: 25%;
+  // top: 0; bottom: 0;  // padding-bottom: 25%;
 }
 
 .project-title {
   margin: 0 auto;
   width: 75%;
-  padding-top: 10%;
+  padding-top: 15%;
   text-align: center;
   a {
     color: #111;
