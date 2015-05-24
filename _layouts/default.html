@@ -33,7 +33,7 @@
   <div class="header-shit">
     <div class="row">
       <div class="col-md-12 center">
-        <a class="center" href="{{ site.baseurl }}/"><img class="written-name" src="/images/name.png"></a>
+        <a class="center" href="{{ site.baseurl }}/"><img class="written-name" src="/images/name-white-02.png"></a>
       </div>
     </div>
     <div class="row">
@@ -74,6 +74,7 @@ $(document).ready(function () {
   $('.nav').find('.active').removeClass('active');
   if(url.href.indexOf("projects") > -1) {
     $('.section-container').addClass('all-months');
+    $('.header-shit').addClass('fixed-shit');
     // $('#bg').addClass('projects-bg');
   }
   $('.nav a').each(function () {
