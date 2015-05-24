@@ -18,13 +18,13 @@ permalink: /projects/
         <div class="month-page">
             <div class="project-square project-card">
                 <div class="project-title">
-                    <h4><a href="http://github.com/calblueprint/watershed">THE WATERSHED PROJECT</a></h4>
+                    <h4><a href="http://github.com/calblueprint/watershed">WATERSHED</a></h4>
                     <div class="project-date">
                         In Progress
                     </div>
                 </div>
                 <div class="project-desc">
-                    A task management mobile application for <a href="http://www.thewatershedproject.org/home.php" target="_blank">The Watershed Project</a>. Built natively for both iOS and Android with a Rails backend. Working specifically on iOS as a developer for <a href="http://bptech.berkeley.edu/" target="_blank">Blueprint</a>.
+                    A task management mobile application for <a href="http://www.thewatershedproject.org/home.php" target="_blank">The Watershed Project</a>. Built natively for both iOS and Android with a Rails backend. Working on iOS as a developer for <a href="http://bptech.berkeley.edu/" target="_blank">Blueprint</a>.
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@ permalink: /projects/
         <div class="month-page">
             <div class="project-square project-card">
                 <div class="project-title">
-                    <h4 data-sr><a href="https://calciumulator.herokuapp.com/">CALCIUMULATOR</a></h4>
+                    <h4><a href="https://calciumulator.herokuapp.com/">CALCIUMULATOR</a></h4>
                     <div class="project-date">
                         November 2014
                     </div>
@@ -117,7 +117,7 @@ permalink: /projects/
     <div class="month-page">
         <div class="project-square project-card">
             <div class="project-title">
-                <h4><a href="http://jodreen.github.io/googletrends-stocks/" target="_blank">GOOGLE TRENDS AND STOCKS</a></h4>
+                <h4><a href="http://jodreen.github.io/googletrends-stocks/" target="_blank">GOOGLE TRENDS & STOCKS</a></h4>
                 <div class="project-date">
                     May 2014
                 </div>
