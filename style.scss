@@ -172,7 +172,6 @@ img.desaturate:hover {
   border-bottom: 3px transparent solid;
   &:hover, &:active {
     border-bottom: solid 3px white;
-    // font-weight: 400;
     text-decoration: none !important;
     border-left: none;
   }
@@ -182,7 +181,6 @@ img.desaturate:hover {
 }
 
 .active-link {
-  // font-weight: 400;
   border-bottom: solid 3px white;
 }
 
@@ -274,26 +272,6 @@ section {
   // background-color: white;
 }
 
-@media screen and (max-width: 1024px) {
-  .date {
-    display: none !important;
-  }
-  .project-title {
-    padding-bottom: 5% !important;
-  }
-  .project-date {
-    visibility: visible !important;
-  }
-  .projects-bg {
-    // visibility: visible !important;
-  }
-
-  .all-months {
-    // background-image: none !important;
-  }
-
-}
-
 .all-months {
   background-image: url("/images/SFmuted.jpg");
   background-size: cover;
@@ -350,6 +328,7 @@ section {
   left: 0; right: 0;
   max-width: 500px;
   min-width: 300px;
+  overflow: scroll;
 }
 
 .project-card {
@@ -378,7 +357,7 @@ section {
 }
 
 .project-desc {
-  font-size: 110%;
+  font-size: 100%;
   a {
     text-decoration: underline;
   }
@@ -389,9 +368,45 @@ section {
 }
 
 .row {
-  margin-top:15px;
+  margin-top:1%;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+
+@media screen and (max-width: 1024px) {
+  .date {
+    display: none !important;
+  }
+  .project-title {
+    padding-bottom: 5% !important;
+  }
+  .project-date {
+    visibility: visible !important;
+  }
+  .projects-bg {
+    // visibility: visible !important;
+  }
+
+  .nav {
+    a {
+      font-size: 100%;
+    }
+  }
+
+  .project-title a {
+    font-size: 100%;
+  }
+
+  .project-desc {
+    font-size: 100%;
+  }
+
+  .all-months {
+    // background-image: none !important;
+  }
+
+}
+
+
 @import "_highlights";
