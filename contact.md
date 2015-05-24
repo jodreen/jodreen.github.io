@@ -3,6 +3,6 @@ layout: page
 permalink: /contact/
 ---
 
-<div class="center content">
+<div data-sr class="center content">
     Email me at jordeenchang(at)gmail.com
 </div>

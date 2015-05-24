@@ -6,17 +6,17 @@ permalink: /projects/
     <div class="project-square only-project-card">
     </div>
     <div class="date">
-        <div class="month-name">
+        <div data-sr class="month-name">
             MAY
         </div>
-        <div class="year-num">
+        <div data-sr class="year-num">
             15
         </div>
     </div>
     <div class="fourteen nov"></div>
     <section>
         <div class="month-page">
-            <div class="project-square project-card">
+            <div data-sr class="project-square project-card">
                 <div class="project-title">
                     <h4><a href="http://github.com/calblueprint/watershed">WATERSHED</a></h4>
                     <div class="project-date">
