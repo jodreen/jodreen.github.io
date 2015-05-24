@@ -9,6 +9,13 @@
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
   <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="/js/jquery.panelSnap.js"></script>
+    <script>
+    jQuery(function($) {
+      $('.section-container').panelSnap();
+      console.log('plz');
+    });
+  </script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <title>{{ site.name }}{% if page.title %} - {{ page.title }} {% endif %}</title>
@@ -22,30 +29,28 @@
 </head>
 
 <body>
-  <img src="../images/SF.jpg" id="bg" alt="">
+    <img src="../images/SF.jpg" id="bg" alt="">
 
-  <div class="row">
-    <div class="col-md-12 center">
-      <a class="center" href="{{ site.baseurl }}/"><img class="written-name" src="/images/name.png"></a>
+  <div class="header-shit">
+    <div class="row">
+      <div class="col-md-12 center">
+        <a class="center" href="{{ site.baseurl }}/"><img class="written-name" src="/images/name.png"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-2 nav center">
+        <a href="{{ site.baseurl }}/projects/">PROJECTS</a>
+      </div>
+      <div class="col-md-2 nav center">
+        <a href="{{ site.baseurl }}/contact/">CONTACT</a>
+      </div>
+      <div class="col-md-4"></div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-4"></div>
-<!--     <div class="col-md-2 nav center">
-      <a href="{{ site.baseurl }}/spiel">Spiel</a>
-    </div> -->
-    <div class="col-md-2 nav center">
-      <a href="{{ site.baseurl }}/projects/">PROJECTS</a>
-    </div>
-    <div class="col-md-2 nav center">
-      <a href="{{ site.baseurl }}/contact/">CONTACT</a>
-    </div>
-    <div class="col-md-4"></div>
-  </div>
-
-  <div id="main" role="main" class="container">
+  <!-- <div id="main" role="main" class="container"> -->
     {{ content }}
-  </div>
+  <!-- </div> -->
 
 
   {% include analytics.html %}
@@ -54,11 +59,12 @@
 
   var config = {
     reset:  true,
-    vFactor: 0.95
+    vFactor: 0.60
   }
   window.sr = new scrollReveal(config);
 
   </script>
+
 </body>
 </html>
 
@@ -67,12 +73,12 @@ $(document).ready(function () {
   var url = window.location;
   $('.nav').find('.active').removeClass('active');
   if(url.href.indexOf("projects") > -1) {
-    $('body').addClass('all-months');
+    $('.section-container').addClass('all-months');
     $('#bg').addClass('projects-bg');
   }
   $('.nav a').each(function () {
     if (this.href == url) {
-      $(this).parent().addClass('active');
+      $(this).parent().addClass('active-link');
     }
   });
 });
@@ -85,7 +91,7 @@ var may_mark = $('.may').offset().top;
 var fixed_card = $('.only-project-card').offset().top;
 
 
-$(document).scroll(function(){
+$('.section-container').scroll(function(){
   // Changing year
   var s = $(this).scrollTop();
   if(s >= fourteen_mark) {

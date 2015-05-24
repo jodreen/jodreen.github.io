@@ -22,24 +22,22 @@ html {
   background-size: cover;
   height: 100%;
   width: 100%;
-  min-height: 100%;
+  // min-height: 100%;
 }
 
 body {
-  height: 100%;
-  width: 100%;
   background: $white;
   font: 18px/1.4 $roboto;
   font-weight: 300;
   color: $darkGray;
-  min-height: 100%;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 10px;
-  width: 100%;
-}
+
+// .container {
+//   margin: 0 auto;
+//   padding: 0 10px;
+//   width: 100%;
+// }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $roboto;
@@ -93,22 +91,6 @@ a {
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
-}
-
-ul {
-  list-style-type: disc;
-}
-
-ol {
-  list-style-type: decimal;
-}
-
-ol ul, ul ol, ul ul, ol ol {
-  margin: 0;
-}
-
-ul ul, ol ul {
-  list-style-type: circle;
 }
 
 em, i {
@@ -171,6 +153,14 @@ img.desaturate:hover {
 // .masthead
 //
 // ///////////////////NAV//////////////////////////////////////////////
+
+.header-shit {
+  position: fixed;
+  width: 100%;
+  z-index: 100000;
+}
+
+
 .nav {
   padding: 15px;
   border-bottom: solid 1px #DDD;
@@ -181,7 +171,7 @@ img.desaturate:hover {
   }
 }
 
-.active {
+.active-link {
   border-bottom: solid 1px #000;
 }
 
@@ -222,6 +212,24 @@ img.desaturate:hover {
 .timeline {
   border-right: 1px solid black;
   height: 500px;
+}
+
+// .container {
+//     height:100%;
+//     width: 100%;
+//     position: absolute;
+//     overflow: scroll;
+// }
+
+.section-container {
+  position: absolute;
+  overflow: scroll;
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  height: 100%;
 }
 
 .year-num {
@@ -273,12 +281,12 @@ img.desaturate:hover {
 }
 
 .all-months {
-  background-image: url("/images/SFbw.jpg");
+  background-image: url("/images/SFmuted.jpg");
   background-size: cover;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
-  filter: gray;
+  // -webkit-filter: grayscale(100%);
+  // -moz-filter: grayscale(100%);
+  // filter: grayscale(100%);
+  // filter: gray;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -306,51 +314,42 @@ img.desaturate:hover {
 
 .only-project-card {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.7);
-  left: 0; right: 0;
-  margin-top: 15px;
+  border: 5px solid white;
   margin-left: auto;
   margin-right: auto;
-  height: 50%;
-  max-width: 500px;
-  min-width: 400px;
-  width: 40%;
 }
 
 .month-page {
   position: relative;
   width: 100%;
-  height: 100vh;
-  overflow: hidden;
+  height: 100%;
+  // overflow: hidden;
   // margin-top: 15px;
   // display: table-cell;
   // vertical-align: middle;
   // text-align: center;
 }
 
-.project-card {
+.project-square {
+  top: 33vh;
+  width: 30%;
+  height: 40%;
   margin: auto;
-  // margin-top:px;
-  position: absolute;
-  top: 25vh; left: 0; bottom: 0; right: 0;
-  // display: inline-block;
-  height: 50%;
+  left: 0; right: 0;
   max-width: 500px;
   min-width: 400px;
-  // background-color: rgba(255, 255, 255, 0.7);
-  width: 40%;
-  // visibility: hidden;
-  // overflow: auto;
-  // margin-left: auto;
-  // margin-right: auto;
-  // position: absolute;
-  // top: 0; bottom: 0;  // padding-bottom: 25%;
+}
+
+.project-card {
+  margin: auto;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .project-title {
   margin: 0 auto;
   width: 75%;
-  padding-top: 15%;
+  padding-top: 7%;
   text-align: center;
   a {
     color: #111;
@@ -372,7 +371,7 @@ img.desaturate:hover {
     text-decoration: underline;
   }
   color: #333;
-  padding: 10%;
+  padding: 5%;
   text-align: center;
   font-weight: 300;
 }
