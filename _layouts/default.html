@@ -13,7 +13,6 @@
     <script>
     jQuery(function($) {
       $('.section-container').panelSnap();
-      console.log('plz');
     });
   </script>
   <!-- Latest compiled and minified CSS -->
@@ -59,7 +58,8 @@
 
   var config = {
     reset:  true,
-    vFactor: 0.60
+    opacity: 0.5,
+    vFactor: 0.4
   }
   window.sr = new scrollReveal(config);
 
@@ -95,9 +95,9 @@ $('.section-container').scroll(function(){
   // Changing year
   var s = $(this).scrollTop();
   if(s >= fourteen_mark) {
-    $('.year-num').html('&nbsp;14');
+    $('.year-num').html('14');
   } else {
-    $('.year-num').html('&nbsp;15');
+    $('.year-num').html('15');
   }
   // changing month
   if(s >= may_mark) {
