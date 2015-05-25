@@ -131,3 +131,13 @@ permalink: /projects/
 </section>
 </div>
 
+<div class="row">
+    <div class="col-md-3">
+        <h4><a href="http://jodreen.github.io/googletrends-stocks/" target="_blank">Google Trends and Stocks</a></h4>
+        May 2014
+    </div>
+
+    <div class="col-md-9">
+        The final project for Concepts in Computing with Data (STAT133) in R and Python. Our team's objective was to see if there was a relationship between Google Trends data and stock prices.
+    </div>
+</div>

@@ -71,10 +71,16 @@
 $(document).ready(function () {
   var url = window.location;
   $('.nav').find('.active').removeClass('active');
+<<<<<<< HEAD
   if(url.href.indexOf("projects") > -1) {
     $('.section-container').addClass('all-months');
     $('.header-shit').addClass('fixed-shit');
     // $('#bg').addClass('projects-bg');
+=======
+    console.log(url);
+  if(url.href.indexOf("spiel") > -1) {
+    $('body').addClass('all-months');
+>>>>>>> master
   }
   $('.nav a').each(function () {
     if (this.href == url) {
