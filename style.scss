@@ -149,6 +149,26 @@ img.desaturate:hover {
 /* LAYOUT / SECTIONS */
 /*********************/
 
+/////////////loading /////////////////
+
+.progress {
+  height: 300px;
+}
+.progress > svg {
+  height: 100%;
+  // display: block;
+}
+
+.overlay {
+  position:fixed;
+  z-index:99999999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,0.9);
+  transition: 1s 0.4s;
+}
 
 // ///////////////////NAV//////////////////////////////////////////////
 
@@ -191,6 +211,7 @@ img.desaturate:hover {
 }
 
 .content {
+  padding: 15px;
   vertical-align: center;
 }
 

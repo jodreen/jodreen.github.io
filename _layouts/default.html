@@ -10,10 +10,10 @@
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
   <script src="http://code.jquery.com/jquery.js"></script>
   <script src="/js/jquery.panelSnap.js"></script>
-    <script>
-    jQuery(function($) {
-      $('.section-container').panelSnap();
-    });
+  <script>
+  jQuery(function($) {
+    $('.section-container').panelSnap();
+  });
   </script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -28,6 +28,9 @@
 </head>
 
 <body>
+<!--   <div class="overlay">
+    <div class="progress" id="progress"></div>
+  </div> -->
   <div class="header-shit">
     <div class="row">
       <div class="col-md-12 center">
@@ -36,16 +39,16 @@
     </div>
     <div class="row">
       <div class="col-md-4"></div>
-      <a href="{{ site.baseurl }}/projects/">
-        <div class="col-md-2 nav center">
-        PROJECTS
+      <div class="col-md-2 center">
+        <a class="nav" href="{{ site.baseurl }}/projects/">
+          PROJECTS
+        </a>
       </div>
-      </a>
-      <a href="{{ site.baseurl }}/contact/">
-        <div class="col-md-2 nav center">
-        CONTACT
-        </div>
-      </a>
+      <div class="col-md-2 center">
+        <a class="nav" href="{{ site.baseurl }}/contact/">
+          CONTACT
+        </a>
+      </div>
       <div class="col-md-4"></div>
     </div>
   </div>
@@ -62,12 +65,28 @@
   }
   window.sr = new scrollReveal(config);
 
+  window.onload = function onLoad() {
+    var circle = new ProgressBar.Circle('#progress', {
+      color: '#FCB03C',
+      duration: 3000,
+      easing: 'easeInOut'
+    });
+
+    circle.animate(1);
+  };
+  $(window).load(function(){
+    console.log('you did not fad out');
+    $('.overlay').fadeOut();
+  });
   </script>
 
 </body>
 </html>
 
+<script src='/js/progressbar.min.js'></script>
 <script type="text/javascript">
+
+
 $(document).ready(function () {
   var url = window.location;
   $('.nav').find('.active').removeClass('active');
@@ -76,9 +95,9 @@ $(document).ready(function () {
     $('.header-shit').addClass('fixed-shit');
     // $('#bg').addClass('projects-bg');
   }
-  $('.nav a').each(function () {
+  $('.nav').each(function () {
     if (this.href == url) {
-      $(this).parent().addClass('active-link');
+      $(this).addClass('active-link');
     }
   });
 });
