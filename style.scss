@@ -22,7 +22,6 @@ html {
   background-size: cover;
   height: 100%;
   width: 100%;
-  // min-height: 100%;
 }
 
 body {
@@ -260,6 +259,10 @@ section {
   height: 100%;
 }
 
+.year {
+
+}
+
 .year-num {
   font-size: 400%;
   font-weight: 400;
@@ -367,10 +370,12 @@ section {
 .project-desc {
   font-size: 100%;
   a {
+    color: #333;
     text-decoration: underline;
   }
   color: white;
   padding: 3%;
+
   text-align: center;
   font-weight: 300;
 }
